@@ -2,6 +2,8 @@ import Head from "next/head";
 import { FC } from "react";
 import React, { PropsWithChildren } from "react";
 
+import { Navbar } from "../ui";
+
 interface Props {
   title: string;
   pageDescription: string;
@@ -31,7 +33,9 @@ export const ShopLayout: FC<PropsWithChildren<Props>> = ({
         }
       </Head>
 
-      <nav>{/* TODO: Navbar */}</nav>
+      <nav>
+        <Navbar/>
+      </nav>
       {/* TODO: Sidebar */}
 
       <main
