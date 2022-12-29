@@ -63,7 +63,7 @@ export const Navbar = () => {
           </NextLink>
 
           <Button>
-            Menu
+            Menú
           </Button>
         </NextLink>
       </Toolbar>
